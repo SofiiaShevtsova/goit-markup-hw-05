@@ -248,6 +248,7 @@ p {
   width: 528px;
   height: 581px;
   background-color: #ffffff;
+  color: #000;
 }
 .modal-btn {
   display: flex;

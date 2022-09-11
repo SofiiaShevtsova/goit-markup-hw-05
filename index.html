@@ -60,6 +60,19 @@
             <button type="button" class="modal-btn" data-modal-close>
               <svg width="30" height="30"><use href="./images/svg/icons.svg.svg#close"></use></svg>
             </button>
+            <form action="">
+              <p>Залиште свої дані, ми вам передзвонимо</p>
+              <label for=""></label> <input type="text">
+              <label for=""></label> <input type="text">
+              <label for=""></label>
+              <input type="text">
+              <label for=""></label>
+              <textarea name="" id="" rows="4"></textarea>
+              <label for=""><input type="checkbox">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a> </label>
+              
+              <button type="submit">Відправити</button>
+            </form>
+            
 
           </div>
         </div>
@@ -436,11 +449,10 @@
         </div>
       <div class="form-footer">
         <h3 class="icon-title">Підпишіться на розсилку</h3>
-        <form action="" class="form-list">
-          <label for="email">
+        <form name="email" class="form-list" autocomplete="on">
+          <label for="email"></label>
             <input type="email" id="email" placeholder="E-mail" class="form-input"/>
-          </label>
-          <button type="button" class="form-btn">Підписатися
+          <button type="submit" class="form-btn">Підписатися
             <svg width="24" height="24"><use href="./images/svg/icons.svg.svg#send"></use></svg>
           </button>
         </form>
