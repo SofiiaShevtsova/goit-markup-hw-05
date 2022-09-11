@@ -231,7 +231,7 @@ p {
   justify-content: center;
 
 transform: scale(1);
-  transition: opacity 1000ms var(--timing-function) 500ms, transform 1000ms var(--timing-function);
+  transition: opacity 500ms var(--timing-function) 250ms, transform 500ms var(--timing-function);
 }
 
 .backdrop.is-hidden{
