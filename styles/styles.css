@@ -326,6 +326,11 @@ top: 8px;
 
 }
 
+.modal-input.person {
+  background-image: url(../images/svg/icons.svg.svg#person);
+  fill: var(--first-text-color);
+}
+
 textarea.modal-input {
   resize: none;
 }
@@ -622,6 +627,11 @@ margin: 0 auto;
   line-height: 1.88;
   letter-spacing: 0.06em;
 }
+
+.form-btn-icon{
+fill: var(--white-text-color);
+}
+
 .form-input {
   width: 100%;
   padding: 15px;
