@@ -54,26 +54,48 @@
       <section class="hero">
         <!-- <div class="container hero-box"> -->
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="button modal-open" data-modal-open>Замовити послугу</button>
+        <button type="button" class="button modal-open" data-modal-open>
+          Замовити послугу
+        </button>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
             <button type="button" class="modal-btn" data-modal-close>
-              <svg width="30" height="30"><use href="./images/svg/icons.svg.svg#close"></use></svg>
+              <svg width="30" height="30">
+                <use href="./images/svg/icons.svg.svg#close"></use>
+              </svg>
             </button>
-            <form action="">
-              <p>Залиште свої дані, ми вам передзвонимо</p>
-              <label for=""></label> <input type="text">
-              <label for=""></label> <input type="text">
-              <label for=""></label>
-              <input type="text">
-              <label for=""></label>
-              <textarea name="" id="" rows="4"></textarea>
-              <label for=""><input type="checkbox">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a> </label>
-              
-              <button type="submit">Відправити</button>
-            </form>
-            
+            <form action="" class="modal-form">
+              <h3 class="modal-title">
+                Залиште свої дані, ми вам передзвонимо
+              </h3>
+              <ul class="resed">
+                <li class="modal-card">
+                  <label for="name" class="modal-item">Ім'я</label>
+                  <input type="text" class="modal-input" />
+                </li>
+                <li class="modal-card">
+                  <label for="tel" class="modal-item">Телефон</label>
+                  <input type="tel" class="modal-input" />
+                </li>
+                <li class="modal-card">
+                  <label for="email" class="modal-item">Пошта</label>
+                  <input type="email" class="modal-input" />
+                </li>
+                <li class="modal-card">
+                  <label for="coment" class="modal-item">Коментар</label>
+                  <textarea name="text" id="coment" rows="4" class="modal-input"></textarea>
+                </li>
+              </ul>
+              <div>
+                <input type="checkbox" class="checkbox" />
+                <label for="" class="policy"
+                  >Погоджуюся з розсилкою та приймаю
+                  <a href="">Умови договору</a>
+                </label>
+              </div>
 
+              <button type="submit" class="form-modal-btn">Відправити</button>
+            </form>
           </div>
         </div>
         <!-- </div> -->
@@ -142,23 +164,34 @@
           <h2 class="title">Чим ми займаємося</h2>
           <ul class="resed flex">
             <li>
-              <div class="work-card"><img
-                src="./images/formatjpg/os21.jpg"
-                alt="створення сайту"
-                width="370"
-              />
-            <h3 class="work-class">Десктопні додатки</h3></div>
-              
+              <div class="work-card">
+                <img
+                  src="./images/formatjpg/os21.jpg"
+                  alt="створення сайту"
+                  width="370"
+                />
+                <h3 class="work-class">Десктопні додатки</h3>
+              </div>
             </li>
-            <li><div class="work-card"><img src="./images/formatjpg/os22.jpg" alt="програмне забезпечення" width="370" />
-              <h3 class="work-class">Мобільні додатки</h3>
-            </div>
-              
+            <li>
+              <div class="work-card">
+                <img
+                  src="./images/formatjpg/os22.jpg"
+                  alt="програмне забезпечення"
+                  width="370"
+                />
+                <h3 class="work-class">Мобільні додатки</h3>
+              </div>
             </li>
-            <li><div class="work-card"><img src="./images/formatjpg/os23.jpg" alt="розробка дизайну" width="370" />
-              <h3 class="work-class">Дизайнерські рішення</h3>
-            </div>
-             
+            <li>
+              <div class="work-card">
+                <img
+                  src="./images/formatjpg/os23.jpg"
+                  alt="розробка дизайну"
+                  width="370"
+                />
+                <h3 class="work-class">Дизайнерські рішення</h3>
+              </div>
             </li>
           </ul>
         </div>
@@ -225,26 +258,36 @@
                 <p class="team-prof">Frontend Developer</p>
                 <ul class="resed flex">
                   <li class="icon-team">
-                    <a href="" class="icon-link"><svg width="20" height="20">
+                    <a href="" class="icon-link"
+                      ><svg width="20" height="20">
                         <use href="./images/svg/icons.svg.svg#icon-insta"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="icon-team">
-                    <a href="" class="icon-link"><svg width="20" height="20">
-                        <use href="./images/svg/icons.svg.svg#icon-twitter"></use>
+                    <a href="" class="icon-link"
+                      ><svg width="20" height="20">
+                        <use
+                          href="./images/svg/icons.svg.svg#icon-twitter"
+                        ></use>
                       </svg>
                     </a>
                   </li>
                   <li class="icon-team">
-                    <a href="" class="icon-link"><svg width="20" height="20">
-                        <use href="./images/svg/icons.svg.svg#icon-facebook"></use>
+                    <a href="" class="icon-link"
+                      ><svg width="20" height="20">
+                        <use
+                          href="./images/svg/icons.svg.svg#icon-facebook"
+                        ></use>
                       </svg>
                     </a>
                   </li>
                   <li class="icon-team">
-                    <a href="" class="icon-link"><svg width="20" height="20">
-                        <use href="./images/svg/icons.svg.svg#icon-linkedin"></use>
+                    <a href="" class="icon-link"
+                      ><svg width="20" height="20">
+                        <use
+                          href="./images/svg/icons.svg.svg#icon-linkedin"
+                        ></use>
                       </svg>
                     </a>
                   </li>
@@ -262,26 +305,36 @@
                 <p class="team-prof">Marketing</p>
                 <ul class="resed flex">
                   <li class="icon-team">
-                    <a href="" class="icon-link"><svg width="20" height="20">
+                    <a href="" class="icon-link"
+                      ><svg width="20" height="20">
                         <use href="./images/svg/icons.svg.svg#icon-insta"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="icon-team">
-                    <a href="" class="icon-link"><svg width="20" height="20">
-                        <use href="./images/svg/icons.svg.svg#icon-twitter"></use>
+                    <a href="" class="icon-link"
+                      ><svg width="20" height="20">
+                        <use
+                          href="./images/svg/icons.svg.svg#icon-twitter"
+                        ></use>
                       </svg>
                     </a>
                   </li>
                   <li class="icon-team">
-                    <a href="" class="icon-link"><svg width="20" height="20">
-                        <use href="./images/svg/icons.svg.svg#icon-facebook"></use>
+                    <a href="" class="icon-link"
+                      ><svg width="20" height="20">
+                        <use
+                          href="./images/svg/icons.svg.svg#icon-facebook"
+                        ></use>
                       </svg>
                     </a>
                   </li>
                   <li class="icon-team">
-                    <a href="" class="icon-link"><svg width="20" height="20">
-                        <use href="./images/svg/icons.svg.svg#icon-linkedin"></use>
+                    <a href="" class="icon-link"
+                      ><svg width="20" height="20">
+                        <use
+                          href="./images/svg/icons.svg.svg#icon-linkedin"
+                        ></use>
                       </svg>
                     </a>
                   </li>
@@ -299,26 +352,36 @@
                 <p class="team-prof">UI Designer</p>
                 <ul class="resed flex">
                   <li class="icon-team">
-                    <a href="" class="icon-link"><svg width="20" height="20">
+                    <a href="" class="icon-link"
+                      ><svg width="20" height="20">
                         <use href="./images/svg/icons.svg.svg#icon-insta"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="icon-team">
-                    <a href="" class="icon-link"><svg width="20" height="20">
-                        <use href="./images/svg/icons.svg.svg#icon-twitter"></use>
+                    <a href="" class="icon-link"
+                      ><svg width="20" height="20">
+                        <use
+                          href="./images/svg/icons.svg.svg#icon-twitter"
+                        ></use>
                       </svg>
                     </a>
                   </li>
                   <li class="icon-team">
-                    <a href="" class="icon-link"><svg width="20" height="20">
-                        <use href="./images/svg/icons.svg.svg#icon-facebook"></use>
+                    <a href="" class="icon-link"
+                      ><svg width="20" height="20">
+                        <use
+                          href="./images/svg/icons.svg.svg#icon-facebook"
+                        ></use>
                       </svg>
                     </a>
                   </li>
                   <li class="icon-team">
-                    <a href="" class="icon-link"><svg width="20" height="20">
-                        <use href="./images/svg/icons.svg.svg#icon-linkedin"></use>
+                    <a href="" class="icon-link"
+                      ><svg width="20" height="20">
+                        <use
+                          href="./images/svg/icons.svg.svg#icon-linkedin"
+                        ></use>
                       </svg>
                     </a>
                   </li>
@@ -447,17 +510,23 @@
             </li>
           </ul>
         </div>
-      <div class="form-footer">
-        <h3 class="icon-title">Підпишіться на розсилку</h3>
-        <form name="email" class="form-list" autocomplete="on">
-          <label for="email"></label>
-            <input type="email" id="email" placeholder="E-mail" class="form-input"/>
-          <button type="submit" class="form-btn">Підписатися
-            <svg width="24" height="24"><use href="./images/svg/icons.svg.svg#send"></use></svg>
-          </button>
-        </form>
-      
-      </div>
+        <div class="form-footer">
+          <h3 class="icon-title">Підпишіться на розсилку</h3>
+          <form name="email" class="form-list" autocomplete="on">
+            <input
+              type="email"
+              id="email"
+              placeholder="E-mail"
+              class="form-input"
+            />
+            <button type="submit" class="form-btn">
+              Підписатися
+              <svg width="24" height="24">
+                <use href="./images/svg/icons.svg.svg#send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
